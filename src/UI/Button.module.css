@@ -1,0 +1,122 @@
+.btn {
+  cursor: pointer;
+}
+
+.t-btn {
+  font-size: 15px;
+  color: #fff;
+  background-color: #5fbad6;
+  padding: 3px 10px;
+  border: none;
+  margin: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.alert-exit {
+  position: absolute;
+  top: 27px;
+  left: 90%;
+  color: black;
+  cursor: pointer;
+}
+
+.temp-btn:nth-child(3) {
+  position: absolute;
+  border: none;
+  border-radius: 3px;
+  width: 25px;
+  height: 15px;
+  color: #fff;
+  background-color: #000000;
+  top: 90px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.temp-btn:nth-child(2) {
+  position: absolute;
+  border: none;
+  border-radius: 3px;
+  width: 25px;
+  height: 15px;
+  color: #fff;
+  background-color: #000000;
+  top: 90px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.themeBtn {
+  align-self: flex-end;
+  padding: 0;
+  height: 15px;
+  width: 40px;
+  font-size: 10px;
+  border: 1px solid rgb(196, 194, 194);
+  background-color: #000000;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.themeBtn.dark {
+  background-color: #fff;
+  color: #000000;
+}
+
+.todobtn {
+  display: inline-block;
+  height: auto;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  overflow: hidden;
+  /* &__select {
+    color: var(--black-2);
+    font-family: Poppins;
+    padding: 1rem;
+    border: none;
+    background-color: var(--bg-3);
+
+    width: 150px;
+    cursor: pointer;
+  } */
+}
+
+.todobtn__primary {
+  display: inline-block;
+  height: auto;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: var(--primaryPurple);
+  color: var(--white);
+}
+.todobtn__secondary {
+  display: inline-block;
+  height: auto;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: var(--bg-3);
+  color: var(--black-1);
+}

@@ -1,0 +1,44 @@
+.alert {
+  display: flex;
+  position: relative;
+  width: 350px;
+  height: 75px;
+  margin: 20px 20px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.temperature {
+  display: flex;
+  position: relative;
+  width: 120px;
+  height: 150px;
+  border: 0.5px solid rgb(207, 207, 207);
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  /* overflow: hidden; */
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.phone {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 2px solid rgb(44, 44, 44);
+  border-radius: 10px;
+  width: 100px;
+  height: 180px;
+  overflow: hidden;
+}
+
+.header__wrapper {
+  background-color: var(--bg-2);
+  padding: 2rem;
+  border-radius: 12px;
+  /* @include smallDeviceSize {
+		padding: 1.5rem; */
+}
